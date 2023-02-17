@@ -65,16 +65,19 @@ If you have any question feel free to contact me at exitudio@gmail.com or epinyo
 
 https://ekkasit.com
 
-<!-- ## <a name="CitingGaitGraph"></a>Citing GaitGraph
-If you use GaitGraph, please use the following BibTeX entry.
+## <a name="CitingGaitMixer"></a>Citing GaitMixer
+If you find our work useful in your research, please consider citing:
 
 ```
-@inproceedings{teepe2021gaitgraph,
-  author={Teepe, Torben and Khan, Ali and Gilg, Johannes and Herzog, Fabian and H\"ormann, Stefan and Rigoll, Gerhard},
-  booktitle={2021 IEEE International Conference on Image Processing (ICIP)}, 
-  title={Gait{G}raph: Graph Convolutional Network for Skeleton-Based Gait Recognition}, 
-  year={2021},
-  pages={2314-2318},
-  doi={10.1109/ICIP42928.2021.9506717}
-} -->
+@misc{https://doi.org/10.48550/arxiv.2210.15491,
+  doi = {10.48550/ARXIV.2210.15491},
+  url = {https://arxiv.org/abs/2210.15491},
+  author = {Pinyoanuntapong, Ekkasit and Ali, Ayman and Wang, Pu and Lee, Minwoo and Chen, Chen},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {GaitMixer: Skeleton-based Gait Representation Learning via Wide-spectrum Multi-axial Mixer},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+
 ```
