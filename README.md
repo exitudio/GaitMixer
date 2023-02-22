@@ -10,6 +10,8 @@ __GaitMixer: Skeleton-based Gait Representation Learning via Wide-spectrum Multi
 [![arxiv](https://img.shields.io/badge/arXiv:2210.15491-red)](https://arxiv.org/abs/2210.15491) 
 <!-- [![DOI:10.1109/ICIP42928.2021.9506717](https://img.shields.io/badge/DOI-10.1109%2FICIP42928.2021.9506717-blue)](https://doi.org/10.1109/ICIP42928.2021.9506717) [![BibTeX](https://img.shields.io/badge/cite-BibTeX-yellow)](#CitingGaitGraph) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/gaitgraph-graph-convolutional-network-for/multiview-gait-recognition-on-casia-b)](https://paperswithcode.com/sota/multiview-gait-recognition-on-casia-b?p=gaitgraph-graph-convolutional-network-for) -->
 
+
+
 ![Pipeline](assets/GaitMixer-diagram.jpg)
 
 ## Quick Start
@@ -18,11 +20,19 @@ First, create a virtual environment or install dependencies directly with:
 ```shell
 conda env create -f environment.yml
 ```
-
-### Data preparation
+## Campare to Previous SOTA Skeleton-based Gait Recognition
+We proposed 2 SOTA methods GaitFormer and GaitMixer in skeleton based gait recognition, improving from GaitGraph by 12% on average.
+|      Method      |  NM  |  BG  |  CL  |  Mean  |
+|-----------------:|-----:|-----:|-----:|-------:|
+|PoseGait          | 68.7 | 44.5 | 36.0 |  49.7  |
+|GaitGraph         | 87.7 | 74.8 | 66.3 |  76.3  |
+|GaitGraph2        | 82.0 | 73.2 | 63.6 |  72.9  |
+|<b>GaitFormer (ours)</b> | 91.5 | 81.4 | 77.2 |  83.4  |
+|<b>GaitMixer (ours)</b> | <b>94.9</b> | <b>85.6</b> | <b>84.5</b> |  <b>88.3</b>  |
+## Data preparation
 Follow [GaitGraph data preparation](https://github.com/tteepe/GaitGraph#data-preparation)
 
-### Train
+## Train
 To train the model you can run the `train.py` script. Our paper presents 2 models to study behavior of self-attetion and large kernel depthwise separable convolution
 1. ***GaitMixer*** (Spatial self-attention & temporal convolution)
 ```shell
