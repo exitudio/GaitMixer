@@ -13,13 +13,6 @@ __GaitMixer: Skeleton-based Gait Representation Learning via Wide-spectrum Multi
 
 
 ![Pipeline](assets/GaitMixer-diagram.jpg)
-
-## Quick Start
-
-First, create a virtual environment or install dependencies directly with:
-```shell
-conda env create -f environment.yml
-```
 ## Campare to Previous SOTA Skeleton-based Gait Recognition
 We proposed 2 SOTA methods GaitFormer and GaitMixer in skeleton based gait recognition, improving from GaitGraph by 12% on average.
 |      Method      |  NM  |  BG  |  CL  |  Mean  |
@@ -29,6 +22,14 @@ We proposed 2 SOTA methods GaitFormer and GaitMixer in skeleton based gait recog
 |GaitGraph2        | 82.0 | 73.2 | 63.6 |  72.9  |
 |<b>GaitFormer (ours)</b> | 91.5 | 81.4 | 77.2 |  83.4  |
 |<b>GaitMixer (ours)</b> | <b>94.9</b> | <b>85.6</b> | <b>84.5</b> |  <b>88.3</b>  |
+
+## Quick Start
+
+First, create a virtual environment or install dependencies directly with:
+```shell
+conda env create -f environment.yml
+```
+
 ## Data preparation
 Follow [GaitGraph data preparation](https://github.com/tteepe/GaitGraph#data-preparation)
 
