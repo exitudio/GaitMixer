@@ -3,7 +3,8 @@
 # GaitMixer
 This repository contains the PyTorch code for:
 
-__GaitMixer: Skeleton-based Gait Representation Learning via Wide-spectrum Multi-axial Mixer__
+__GaitMixer: Skeleton-based Gait Representation Learning via Wide-spectrum Multi-axial Mixer__ 
+The paper is accepted to [ICASSP 2023](https://2023.ieeeicassp.org/).
 
 [Ekkasit Pinyoanuntapong](https://github.com/exitudio), Ayman Ali, Pu Wang, Minwoo Lee, Chen Chen
 
@@ -80,15 +81,10 @@ https://ekkasit.com
 If you find our work useful in your research, please consider citing:
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2210.15491,
-  doi = {10.48550/ARXIV.2210.15491},
-  url = {https://arxiv.org/abs/2210.15491},
+@proceedings{GaitMixer2023,
+  title={GaitMixer: Skeleton-based Gait Representation Learning via Wide-spectrum Multi-axial Mixer},
   author = {Pinyoanuntapong, Ekkasit and Ali, Ayman and Wang, Pu and Lee, Minwoo and Chen, Chen},
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {GaitMixer: Skeleton-based Gait Representation Learning via Wide-spectrum Multi-axial Mixer},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International}
+  publisher={IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
+  year={2023}
 }
-
 ```
