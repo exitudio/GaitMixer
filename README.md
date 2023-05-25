@@ -5,10 +5,12 @@ This repository contains the PyTorch code for:
 
 __GaitMixer: Skeleton-based Gait Representation Learning via Wide-spectrum Multi-axial Mixer__ 
 The paper is accepted to [ICASSP 2023](https://2023.ieeeicassp.org/).
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/gaitmixer-skeleton-based-gait-representation/multiview-gait-recognition-on-casia-b)](https://paperswithcode.com/sota/multiview-gait-recognition-on-casia-b?p=gaitmixer-skeleton-based-gait-representation)
+[![arxiv](https://img.shields.io/badge/arXiv:2210.15491-red)](https://arxiv.org/abs/2210.15491) 
 
 [Ekkasit Pinyoanuntapong](https://github.com/exitudio), Ayman Ali, Pu Wang, Minwoo Lee, Chen Chen
 
-[![arxiv](https://img.shields.io/badge/arXiv:2210.15491-red)](https://arxiv.org/abs/2210.15491) 
+
 <!-- [![DOI:10.1109/ICIP42928.2021.9506717](https://img.shields.io/badge/DOI-10.1109%2FICIP42928.2021.9506717-blue)](https://doi.org/10.1109/ICIP42928.2021.9506717) [![BibTeX](https://img.shields.io/badge/cite-BibTeX-yellow)](#CitingGaitGraph) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/gaitgraph-graph-convolutional-network-for/multiview-gait-recognition-on-casia-b)](https://paperswithcode.com/sota/multiview-gait-recognition-on-casia-b?p=gaitgraph-graph-convolutional-network-for) -->
 
 
