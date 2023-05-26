@@ -85,11 +85,13 @@ https://ekkasit.com
 If you find our work useful in your research, please consider citing:
 
 ```
-@INPROCEEDINGS{GaitMixer2023,
-  title={GaitMixer: Skeleton-based Gait Representation Learning via Wide-spectrum Multi-axial Mixer},
-  author = {Pinyoanuntapong, Ekkasit and Ali, Ayman and Wang, Pu and Lee, Minwoo and Chen, Chen},
-  publisher={IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
+@INPROCEEDINGS{10096917,
+  author={Pinyoanuntapong, Ekkasit and Ali, Ayman and Wang, Pu and Lee, Minwoo and Chen, Chen},
   booktitle={ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
-  year={2023}
-}
+  title={Gaitmixer: Skeleton-Based Gait Representation Learning Via Wide-Spectrum Multi-Axial Mixer}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.1109/ICASSP49357.2023.10096917}}
 ```
