@@ -77,7 +77,7 @@ The following parts of the code are borrowed from other projects. Thanks for the
 - PoseFormer: [zczcwh/PoseFormer](https://github.com/zczcwh/PoseFormer)
 
 ---
-If you have any question feel free to contact me at exitudio@gmail.com or epinyoan@uncc.edu
+
 
 https://ekkasit.com
 
